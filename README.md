@@ -84,6 +84,7 @@ Each page will have the same framework which will contain a nav bar which includ
 
 ### Wireframe
 
+[Home Page](https://github.com/Leemac79/Gym-Startup/blob/master/assets/wireframes/home-screen.png)
 
 # Technologies Used
 
