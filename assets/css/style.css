@@ -1,13 +1,15 @@
 /* ----------------------------------------Header/hero banner */
 #welcome-banner {
-    width:100%;
-    height:auto;
+    width: 100%;
+    height: auto;
     background-image: url(https://valleyparentmagazine.com/wp-content/uploads/2016/07/family-gym-fitness.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
+    background-position: center center;
+    background-size: cover;
     background-attachment: fixed;
 }
+
+
 
 /* ----------------------------------------Text over Header/hero banner */
 .jumbotron {
@@ -44,4 +46,53 @@
 .col-sm-4 {
     text-align: left;
     vertical-align: top;
+}
+
+/* ---------------------------------------------------------------------Classes Page */
+
+/* ----------------------------------------Classes Hero section */
+
+#class-info {
+    background-image: url(https://member.afsfitness.com/sites/default/files/All%20Disciplines%20copy.jpg);
+    height: 340px;
+}
+
+/* ----------------------------------------Schedule section */
+
+.class-schedule {
+    background-color: #fafafa;
+    margin-top: 20px;
+    margin-top: 20px;
+}
+
+.daily {
+    background-color: #28a745;
+    text-align: left;
+    color: #fafafa;
+    padding: 30px 30px 30px 30px;
+    float: left;
+    height: 350px;
+    width: 25%;
+    border: 2px solid white;
+}
+
+facilites-hero {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.equip {
+    background-color: #28a745;
+    text-align: left;
+    color: #fafafa;
+    padding: 30px 30px 30px 30px;
+    float: left;
+    width: 25%;
+}
+
+.facilties-list {
+    background-color: #28a745;
 }
