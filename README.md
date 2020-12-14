@@ -119,3 +119,28 @@ GitHub is used to store the projects code after being pushed from Git.
 
 * Balsamiq:
 Baslsamiq was used to create the wireframes during the design process.
+
+# Accreditting content from other sources
+
+* creating the contact form with style
+  https://www.w3schools.com/howto/howto_css_contact_form.asp
+
+* using and learning about flexbox styling for content on my membership page
+https://flexboxfroggy.com/
+
+# Bugs and fixes
+
+* issue with responsive elements on my home page regarding the hero image not resizing 
+for mobile viewports
+
+* issues with the schedule page to display correctly on the different viewports. Experimenting with
+various col- options to achieve the desired display across all platforms.
+
+## Design and evolution of the web page
+
+After thinking about content and the flow of information to a new user I have decided against having 
+four pages. The final page was going to be a contact page but I have not decided that this should be 
+merged into the membership page. The reason for this is that not only a large space would be wasted on
+the last page, but as a user would be on the membership information page. There would be a higher chance
+of a user filing out a form while they are on the membership information page than if they had to go to
+page to do this.
