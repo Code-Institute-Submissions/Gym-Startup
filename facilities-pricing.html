@@ -30,10 +30,7 @@
                     <a class="nav-link text-white" href="classes.html">Classes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="facilities-pricing.html">Facilities & Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="contact.html">Contact</a>
+                    <a class="nav-link active text-white" href="facilities-pricing.html">Facilities & Pricing</a>
                 </li>
             </ul>
         </div>
@@ -42,7 +39,7 @@
     <header>
         <div class="containter-fluid">
             <div class="facilites-hero">
-                <img src="https://prod-everyoneactive-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2018/04/13112252/Porchester_HeaderBanner.png"
+                <img src="/assets/images/gym_banner.png"
                     class="img-fluid" alt="Responsive image">
             </div>
         </div>
@@ -88,38 +85,43 @@
     </section>
 
     <section id="membership-details">
-        <div class="membership-container col-6">
-            <h1> Membership Options - Join for a full family membership for only <i>£70</i> per month!</h1>
-            <p>A family membership consists of two adults and up to three children up to the ages of 16.</p>
-            <p>All classes are included in the membership fee with no additional costs.</p>
-            <p>Childcare services are at an additional costs. Up to £5 per month per child.</p>
+        <div class="container">
+            <div class="row">
+                <div class="membership-container col-md-6">
+                    <h1> Membership Options - Join for a full family membership for only <i>£70</i> per month!</h1>
+                    <p>A family membership consists of two adults and up to three children up to the ages of 16.</p>
+                    <p>All classes are included in the membership fee with no additional costs.</p>
+                    <p>Childcare services are at an additional costs. Up to £5 per month per child.</p>
 
-            <div class="address-container col-3">
-                    <p>Nulife Gym</p>
-                    <p>Sometown</p>
-                    <p>Anyplace</p>
-                    <p>Some Road</p>
-                    <p>SO2 9SO</p>
+                    <div class="address">
+                        <h1>Find Us Here!</h1>
+                        <p>Nulife Gym</p>
+                        <p>Sometown</p>
+                        <p>Anyplace</p>
+                        <p>Some Road</p>
+                        <p>SO2 9SO</p>
+                    </div>
+                </div>
+
+                <div class="contact-form col-md-6">
+                    
+                    <form method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
+
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="fullname" placeholder="full name.." required>
+
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="email address.." required>
+
+                        <label for="phone">Phone Number</label>
+                        <input type="phone" id="phone" name="phone" placeholder="phone number.." required>
+
+                        <input type="submit" value="Submit">
+
+                    </form>
+                </div>
             </div>
-            </div>
-
-        <div class="contact-form container">
-            <form action="action_page.php">
-
-                <label for="name">Full Name</label>
-                <input type="text" id="name" name="fullname" placeholder="full name..">
-
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" placeholder="email address..">
-
-                <label for="phone">Phone Number</label>
-                <input type="phone" id="phone" name="phone" placeholder="phone number..">
-
-                <input type="submit" value="Submit">
-
-            </form>
         </div>
-
     </section>
 
 

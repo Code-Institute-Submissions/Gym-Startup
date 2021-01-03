@@ -2,6 +2,10 @@
 
 ## Milestone one project for code institute User Centric Frontend Development
 
+# UX
+
+## Project Goals
+
 The website I have created is based upon a ficticious independent family orientated gym looking to create an online presence to help generate more memberships and show the world who they are.
 The website focuses on a family friendly environment, helping families stay healthy together.
 As it is a family orientated gym I have envisioned each age group of a typical family to highlight what they may expect or would want from a gym of this nature.
@@ -88,6 +92,12 @@ Each page will have the same framework which will contain a nav bar which includ
 * [Classes Page](https://github.com/Leemac79/Gym-Startup/blob/master/assets/wireframes/classes-screen.png)
 * [Facilities Page](https://github.com/Leemac79/Gym-Startup/blob/master/assets/wireframes/facilities-screen.png)
 
+# Features
+
+## Existing Features
+
+## Features Left to Implement
+
 # Technologies Used
 
 * HTML
@@ -111,7 +121,7 @@ Font Awesome was used on all pages throughout the website to add icons for aesth
 * jQuery:
 jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 
-* Git
+* Git:
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
 * GitHub:
@@ -128,13 +138,27 @@ Baslsamiq was used to create the wireframes during the design process.
 * using and learning about flexbox styling for content on my membership page
 https://flexboxfroggy.com/
 
+* Images within the website were attained from the following sources
+  * https://www.freepik.com/
+  * https://pixabay.com/
+
+# Testing
+
 # Bugs and fixes
 
 * issue with responsive elements on my home page regarding the hero image not resizing 
-for mobile viewports
+for mobile viewports after multiple testing using the developer tools on chrome this was due to the size of my image used.
+I resized the image using https://www.adobe.com/uk/photoshop/online/resize-image.html This then resolved my issue.
 
 * issues with the schedule page to display correctly on the different viewports. Experimenting with
 various col- options to achieve the desired display across all platforms.
+
+* issues with the lower part of the facilities-pricing page in regards to getting to be responsive over various viewports.
+The page would look fine on desktop and ipad screen sizes, however the page would not display correctly on mobile. The sizes
+would scale too small making the page un-useable. After using the development tool on chrome I discovered my CSS width value was
+incorrect. I also had to adjust the -col values to get the desired appearence.
+
+## Validation
 
 ## Design and evolution of the web page
 

@@ -2,11 +2,11 @@
 #welcome-banner {
     width: 100%;
     height: auto;
-    background-image: url(https://valleyparentmagazine.com/wp-content/uploads/2016/07/family-gym-fitness.jpg);
+    background-image: url(/assets/images/hero_image.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: local;
 }
 
 
@@ -15,6 +15,18 @@
 .jumbotron {
     margin-bottom: 0;
     padding-top: 80px;
+}
+
+#jumbotron-box {
+    background-color: rgba(104, 114, 104, 0.651);
+    width: 50%;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#jumbotron-box a {
+    color: #fafafa;
+    font-weight: bolder;
 }
 
 /* ----------------------------------------Reasons section */
@@ -63,12 +75,11 @@
 
 /* ---------------------------------------------------------------------Classes Page */
 
-/* ----------------------------------------Classes Hero section */
-
-#class-info {
-    background-image: url(https://member.afsfitness.com/sites/default/files/All%20Disciplines%20copy.jpg);
-    height: 340px;
+#class_type_list {
+    max-width: 80%;
 }
+
+/* ----------------------------------------Classes Hero section */
 
 .class-list li{
     color: green;
@@ -82,8 +93,6 @@
 
 .class-schedule {
     background-color: #fafafa;
-    margin-top: 20px;
-    margin-top: 20px;
 }
 
 .daily {
@@ -132,19 +141,10 @@ facilites-hero {
 
 .membership-container {
     color: green;
-    margin-left: 20px;
 }
 
-.address-container {
-    border: 2px #28a745;
-    background-color: #28a7469d;
-    border-radius: 15px;
-    line-height: 1;
-    padding: 10px;
-    padding-left: 25px;
-    color: #fafafa;
-    align-content: center;
-    max-width: 50%;
+.address p{
+    margin-bottom: 3px;
 }
 
 /* ----------------------------------------Contact Form */
@@ -177,8 +177,11 @@ input[type=submit]:hover {
 
 .contact-form {
     height: 30%;
-    width: 30%;
     border-radius: 5px;
     background-color: rgba(0, 128, 0, 0.336);
     padding: 20px;
+}
+
+.nav-link.active {
+    font-weight: bold;
 }
