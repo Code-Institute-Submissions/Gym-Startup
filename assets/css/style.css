@@ -2,16 +2,14 @@
 #welcome-banner {
     width: 100%;
     height: auto;
-    background-image: url(/assets/images/hero_image.jpg);
+    background-image: url(/assets/images/index-hero-image.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: local;
 }
 
-
-
 /* ----------------------------------------Text over Header/hero banner */
+
 .jumbotron {
     margin-bottom: 0;
     padding-top: 80px;
@@ -73,6 +71,7 @@
     color: #fafafa;
 }
 
+
 /* ---------------------------------------------------------------------Classes Page */
 
 #class_type_list {
@@ -105,6 +104,10 @@
     width: 25%;
     border: 4px solid white;
     border-radius: 20px;
+}
+
+#schedule {
+    justify-content: center;
 }
 
 /* ----------------------------------------Facilties & Contact section */

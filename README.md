@@ -10,6 +10,31 @@ The website I have created is based upon a ficticious independent family orienta
 The website focuses on a family friendly environment, helping families stay healthy together.
 As it is a family orientated gym I have envisioned each age group of a typical family to highlight what they may expect or would want from a gym of this nature.
 
+### Business Goals
+
+* To create a new website to generate an online presence to increase gym memberships
+* Provide a positive user experience that offers a user friendly approach providing all the information about the gym and its facilities
+* As the gym provides classes give brief descriptions of these and also a schedule of times and days they take place.
+* Provide location and contact details, including a contact form so that users and send in their details so we can contact them directly to then attend and sign up to the gym.
+* Show clear and concise pricing information and any additional pricing options.
+* Use a well presented branded and coloured scheme across all pages.
+
+
+### User Goals
+
+* A clear and easy to use site giving a positive user experience
+* A trustworthy and safe place to go, that may have possible existing member tesitmonials
+* A clear membership plan with pricing information
+* What facilitate are availble with the use of some imagery to show these
+* Where the gym is located with some contact information, some form of contact to show interest in joining the gym
+* Information on child care areas if this is available
+* See what is availble for all family memebers if I were to join
+
+### Returning User 
+
+* To see the latest news and what upcoming events are going to take place
+* Any new classes or groups starting up
+
 # User Stories
 ### The parent
 
@@ -40,39 +65,12 @@ As it is a family orientated gym I have envisioned each age group of a typical f
 * I may need some help with accessabilty for parking, entry or inside the changing rooms when showering. Do you facilitate this?
 * Are there good and well trained medical practices by the staff on site should anything untoward happen?
 
-# Goals
-
-### Business Goals
-
-* To create a new website to generate an online presence to increase gym memberships
-* Provide a positive user experience that offers a user friendly approach providing all the information about the gym and its facilities
-* As the gym provides classes give brief descriptions of these and also a schedule of times and days they take place.
-* Provide location and contact details, including a contact form so that users and send in their details so we can contact them directly to then attend and sign up to the gym.
-* Show clear and concise pricing information and any additional pricing options.
-* Use a well presented branded and coloured scheme across all pages.
-
-
-### User Goals
-
-* A clear and easy to use site giving a positive user experience
-* A trustworthy and safe place to go, that may have possible existing member tesitmonials
-* A clear membership plan with pricing information
-* What facilitate are availble with the use of some imagery to show these
-* Where the gym is located with some contact information, some form of contact to show interest in joining the gym
-* Information on child care areas if this is available
-* See what is availble for all family memebers if I were to join
-
-### Returning User 
-
-* To see the latest news and what upcoming events are going to take place
-* Any new classes or groups starting up
-
 # Design
 
 * Color Scheme - The two main colours for the site are green and white. This will be used across all pages
 * Typography - Not decided just yet
 * Imagery - Imagery is important. The large, background hero image is designed to be striking and catch the user's attention, while trying to enforce the family feel of the website.
-* Responsivness - The site should be responsive on all devices
+* Responsivness - The site should be responsive on all common devices
 
 ## Layout
 
@@ -96,10 +94,18 @@ Each page will have the same framework which will contain a nav bar which includ
 
 ## Existing Features
 
-## Features Left to Implement
+* A fixed navbar that is always visable on the page even when you are scrolled down
+* On the home page a few quick links to pages after the user reads the short information of text. These are links within buttons that stand out on the page.
+* On the classes page a schedule built in from html code showing classes and times. These will be fully responsive to look visually appealing on each device.
+* On the facilities page there is a contact form for users to register their interest in joining the gym. This is fully styled including the submit button.
+
+## Features Left to Implement in the future
+
+* An ability to log into the site to access other areas including the ability to book onto a class via the schedule page.
 
 # Technologies Used
 
+## Languages
 * HTML
 * CSS
 * Bootstrap
@@ -142,7 +148,38 @@ https://flexboxfroggy.com/
   * https://www.freepik.com/
   * https://pixabay.com/
 
-# Testing
+* The images I used were then put together using my own Adobe Creative Suite to create the banners for my home and classes pages. The images used were from the above.
+
+# Testing &  Validation
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of this project to ensure there were no syntax errors on each page.
+
+* https://validator.w3.org/
+* https://jigsaw.w3.org/css-validator/
+
+
+Using the above I acheived no errors in my pages for index.html and classes.html. I had errors in my facilities-pricing.html of which were rectified to give a successful no errors page.
+
+The fixed error was in regards to the wrong field type being used in my form for the telephone section. I had used phone rather than tel.
+
+I have thoroughly tested this website and was unable to find any broken links within it. I have also tried to submit blank contact forms and incorrectly filled out fields to give
+an error message on each field to show that the required attribute within my form is working as it should. I also made sure that it was filled out correctly to make sure the submit button
+open up a new tab with the code institue successful page.
+
+### Devices Tested
+
+* Samsung Galaxy S6 S7 S8 S9
+* iPhone X/6/7/8
+* Pixel 2 / 2XL
+* Desktop
+* iPad
+
+### Browsers Tested
+
+* Microsoft Edge
+* Firefox
+* Chrome
+* Safari
 
 # Bugs and fixes
 
@@ -157,8 +194,6 @@ various col- options to achieve the desired display across all platforms.
 The page would look fine on desktop and ipad screen sizes, however the page would not display correctly on mobile. The sizes
 would scale too small making the page un-useable. After using the development tool on chrome I discovered my CSS width value was
 incorrect. I also had to adjust the -col values to get the desired appearence.
-
-## Validation
 
 ## Design and evolution of the web page
 
