@@ -136,20 +136,6 @@ GitHub is used to store the projects code after being pushed from Git.
 * Balsamiq:
 Baslsamiq was used to create the wireframes during the design process.
 
-# Accreditting content from other sources
-
-* creating the contact form with style
-  https://www.w3schools.com/howto/howto_css_contact_form.asp
-
-* using and learning about flexbox styling for content on my membership page
-https://flexboxfroggy.com/
-
-* Images within the website were attained from the following sources
-  * https://www.freepik.com/
-  * https://pixabay.com/
-
-* The images I used were then put together using my own Adobe Creative Suite to create the banners for my home and classes pages. The images used were from the above.
-
 # Testing &  Validation
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of this project to ensure there were no syntax errors on each page.
@@ -203,3 +189,28 @@ merged into the membership page. The reason for this is that not only a large sp
 the last page, but as a user would be on the membership information page. There would be a higher chance
 of a user filing out a form while they are on the membership information page than if they had to go to
 page to do this.
+
+# Deployment
+My website is currently deployed on Github Pages - https://
+
+I was able to deploy the website here by going to my repository in which all the files are saved, clicking on settings at the top and
+scrolling down to the heading GitHub Pages. Underneath the heading there is a source and I chose master branch from the dropdown which
+allows you to host the website on GitHub Pages.
+
+# Acknowledgements
+
+* creating the contact form with style
+  https://www.w3schools.com/howto/howto_css_contact_form.asp
+
+* using and learning about flexbox styling for content on my membership page
+https://flexboxfroggy.com/
+
+* Images within the website were attained from the following sources
+  * https://www.freepik.com/
+  * https://pixabay.com/
+
+* The images I used were then put together using my own Adobe Creative Suite to create the banners for my home and classes pages. The images used were from the above.
+
+* The Code Institute https://codeinstitute.net/
+
+* Bootstrap https://getbootstrap.com/docs/5.0/getting-started/introduction/ for creating various parts of my webpage to help the layout and responsiveness.
