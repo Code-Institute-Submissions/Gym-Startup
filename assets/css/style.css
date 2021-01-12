@@ -2,7 +2,7 @@
 #welcome-banner {
     width: 100%;
     height: auto;
-    background-image: url(/assets/images/index-hero-image.png);
+    background-image: url(../../assets/images/index-hero-image.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
