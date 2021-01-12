@@ -27,6 +27,16 @@
     font-weight: bolder;
 }
 
+/* ----------------------------------------Background Color section */
+
+#Nav-bar {
+    background-color:  #309647;
+}
+
+#footer-bar {
+    background-color:  #309647;
+}
+
 /* ----------------------------------------Reasons section */
 
 .row-header h2 {
