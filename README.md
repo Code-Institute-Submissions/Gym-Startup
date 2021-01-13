@@ -104,6 +104,7 @@ Underneath these would be the class descriptions which would also work the same 
 * [Home Page](https://github.com/Leemac79/Gym-Startup/blob/master/assets/wireframes/home-screen.png)
 * [Classes Page](https://github.com/Leemac79/Gym-Startup/blob/master/assets/wireframes/classes-screen.png)
 * [Facilities Page](https://github.com/Leemac79/Gym-Startup/blob/master/assets/wireframes/facilities-screen.png)
+* [Contact Page](https://github.com/Leemac79/Gym-Startup/blob/master/Screenshots/Contact%20Screen.png)
 
 # Features
 
@@ -114,9 +115,10 @@ Underneath these would be the class descriptions which would also work the same 
 * On the classes page a schedule built in from html code showing classes and times. These will be fully responsive to look visually appealing on each device.
 * On the facilities page there is a contact form for users to register their interest in joining the gym. This is fully styled including the submit button.
 
-## Features Left to Implement in the future
+## Features left to implement in the future
 
 * An ability to log into the site to access other areas including the ability to book onto a class via the schedule page.
+* A testimonials section which would also have images of the people who left the testimonials, which could enhance more trust towards the site.
 
 # Technologies Used
 
