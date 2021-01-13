@@ -1,12 +1,12 @@
 # NU Life Gym website
 
-## Milestone one project for code institute User Centric Frontend Development
+## Milestone one project for code institute User Centric Front-end Development
 
 # UX
 
 ## Project Goals
 
-The website I have created is based upon a ficticious independent family orientated gym looking to create an online presence to help generate more memberships and show the world who they are.
+The website I have created is based upon a fictitious independent family orientated gym looking to create an online presence to help generate more memberships and show the world who they are.
 The website focuses on a family friendly environment, helping families stay healthy together.
 As it is a family orientated gym I have envisioned each age group of a typical family to highlight what they may expect or would want from a gym of this nature.
 
@@ -23,12 +23,12 @@ As it is a family orientated gym I have envisioned each age group of a typical f
 ### User Goals
 
 * A clear and easy to use site giving a positive user experience
-* A trustworthy and safe place to go, that may have possible existing member tesitmonials
+* A trustworthy and safe place to go, that may have possible existing member testimonials
 * A clear membership plan with pricing information
-* What facilitate are availble with the use of some imagery to show these
+* What facilitate are available with the use of some imagery to show these
 * Where the gym is located with some contact information, some form of contact to show interest in joining the gym
 * Information on child care areas if this is available
-* See what is availble for all family memebers if I were to join
+* See what is available for all family members if I were to join
 
 ### Returning User 
 
@@ -41,36 +41,29 @@ As it is a family orientated gym I have envisioned each age group of a typical f
 * As an actor playing the role of a parent, I would want a safe and trusting environment for the whole of my family that also offers a good value for money for the family membership.
 * As it is a family membership I would like to see what is available for each member of my family making sure they are able to make use of the facilities.
 * I also have a very young child who may not be able to use the facilities and I cannot put them in child care, does the gym offer some sort of cresh/child care while the older members of the family can use the gym?
-* Are they exercise classes available and are they open to all ages? I would like to do classes so I would like to see a schedule to to see I can attend these.
+* Are they exercise classes available and are they open to all ages? I would like to do classes so I would like to see a schedule to see I can attend these.
 * Does the gym offer a personal trainer as part of the package or is there an option to add this to help with a routine. If so can they offer a healthy eating plan.
-* What time is the gym open and can I only go at certain times as I work full time and may be limited to times I can go. I would also like to know where it is based so I dont have to travel too far.
+* What time is the gym open and can I only go at certain times as I work full time and may be limited to times I can go. I would also like to know where it is based so I don't have to travel too far.
 
 ### The Child (8+)
 
-* As an actor playing the role of a yound child, I would want to know if there are any fun groups or classes I can attend to exercise and learn to be healthy, preferrably with people of a simular age.
+* As an actor playing the role of a young child, I would want to know if there are any fun groups or classes I can attend to exercise and learn to be healthy, preferably with people of a similar age.
 * Is there a pool at the gym as I enjoy swimming and some of my friends may not be able to swim yet so are there swimming lessons available?
 * Can I be taught and shown how to use the gym equipment as I have never been in a gym before
 
 ### The very Young Child, Toddler, even baby
 
 * Thinking on this age group who may be too young to safely use the facilities, they may require other needs while the other family member do.
-* Will child care be availble as part of the gym membership and will the staff be trained and trusting
+* Will child care be available as part of the gym membership and will the staff be trained and trusting
 * If there is a pool, maybe there are lessons and even a parents and Toddler only session
 * A supervised cresh/play area for the younger children to be while the gym is used by the parents and older family members.
-
-### Ederly (60+)
-
-* As an actor playing this age group I may prefer to only use the gym earlier in the day and with a group of people who are my age. Is this an option?
-* I may want to try a class instead of using the equipment, will there be one I can attend that may be slower and more in tune with someone my age
-* I may need some help with accessabilty for parking, entry or inside the changing rooms when showering. Do you facilitate this?
-* Are there good and well trained medical practices by the staff on site should anything untoward happen?
 
 # Design
 
 * Color Scheme - The two main colours for the site are green and white. This will be used across all pages
 * Typography - Not decided just yet
 * Imagery - Imagery is important. The large, background hero image is designed to be striking and catch the user's attention, while trying to enforce the family feel of the website.
-* Responsivness - The site should be responsive on all common devices
+* responsivness - The site should be responsive on all common devices
 
 ## Layout
 
@@ -81,8 +74,30 @@ Each page will have the same framework which will contain a nav bar which includ
 
 * Home (Page 1) - A home page which will use a hero background image. A general why us and reasons for joining the gym.
 * Classes (Page 2) - A page which will contain information on classes and a day to day schedule of the classes that currently take place which will include time and dates.
-* Gym information ( Page 3) - To provide more information including membership details, pricing, extra facilities included and a small gallery to provide users imagery to equiptment and classes.
+* Gym information ( Page 3) - To provide more information including membership details, pricing, extra facilities included and a small gallery to provide users imagery to equipment and classes.
 * Contact (page 4) - A page to give the user all the relevant contact information and a form to fill in to contact the gym.
+
+#### Mobile design
+
+* Home (Page 1) - The responsive design will put the nav bar into a burger symbol to have a dropdown menu for navigation, this will apply to all pages and would always be visible at the top of the screen. The hero image and text will appear underneath fitting to the viewport.
+I would then have the reason section to fall one by one underneath each other so that the user will only need to scroll up or down the content. Following this would be the footer which will have the
+social media links.
+* Classes (Page 2) - The nav bar will work the same as Page 1, underneath this would be a responsive hero image. On this page there are 4 boxes of days where classes take place, here the boxes would appear one after the other so only
+one per width of the viewport. Underneath these would be the class descriptions which would also work the same way with only one description per width. Again giving the user only needing to scroll up and down the content. The footer would follow this.
+* Gym information (Page 3) - The nav bar again work the same way which would also be followed underneath by a hero image. Next would be information sections which would appear as only one section per width giving the user ease of us by only needing to scroll
+up and down the content. The footer would follow as previous pages at the bottom
+* Contact (Page 4) - This page will have the same nav bar layout with a hero image underneath. This will then be followed by all the contact information. Underneath this will then be a short contact form that can be filled out by the user.
+
+#### Small screen such as iPad
+
+* Home (Page 1) - The responsive design will put the nav bar into a burger symbol to have a dropdown menu for navigation, this will apply to all pages and would always be visible at the top of the screen. The hero image and text will appear underneath fitting to the viewport.
+I would change the way my reasons section appear for this viewport as I would only should two of the three reasons. This would be so that they fall side by side evenly allowing a better flow for information. While also keeping the page to a scroll up and down method for viewing the website. Following this would be the footer which will have the
+social media links.
+* Classes (Page 2) - The nav bar will work the same as Page 1, underneath this would be a responsive hero image. On this page there are four boxes of days where classes take place. Again this section would look different on this viewport, there will be two rows of two days side by side for a more responsive look.
+Underneath these would be the class descriptions which would also work the same way as the mobile with only one description per width. Again giving the user only needing to scroll up and down the content. The footer would follow this.
+* Gym information (Page 3) - The nav bar again work the same way which would also be followed underneath by a hero image. Following this would be the information and benefits section, these would also appear side by side rather than one after the other. The footer would follow as previous pages at the bottom.
+* Contact (Page 4) - This page will have the same nav bar layout with a hero image underneath. This would appear similar to the mobile but instead of the sections appearing on top of each other they would be side by side filling the width of the viewport.
+
 
 ### Wireframe
 
@@ -150,7 +165,7 @@ The fixed error was in regards to the wrong field type being used in my form for
 
 I have thoroughly tested this website and was unable to find any broken links within it. I have also tried to submit blank contact forms and incorrectly filled out fields to give
 an error message on each field to show that the required attribute within my form is working as it should. I also made sure that it was filled out correctly to make sure the submit button
-open up a new tab with the code institue successful page.
+open up a new tab with the code institute successful page.
 
 ### Devices Tested
 
@@ -191,11 +206,12 @@ of a user filing out a form while they are on the membership information page th
 page to do this.
 
 # Deployment
-My website is currently deployed on Github Pages - https://
+My website is currently deployed on Github Pages - https://https://leemac79.github.io/Gym-Startup/
 
 I was able to deploy the website here by going to my repository in which all the files are saved, clicking on settings at the top and
 scrolling down to the heading GitHub Pages. Underneath the heading there is a source and I chose master branch from the dropdown which
 allows you to host the website on GitHub Pages.
+All image files are stored on github and the website is ran through my github repository.
 
 # Acknowledgements
 
