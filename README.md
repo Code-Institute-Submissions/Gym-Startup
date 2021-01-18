@@ -169,6 +169,9 @@ I have thoroughly tested this website and was unable to find any broken links wi
 an error message on each field to show that the required attribute within my form is working as it should. I also made sure that it was filled out correctly to make sure the submit button
 open up a new tab with the code institute successful page.
 
+I have tested the website within the development tools using lighthouse. I managed to achieve good ratings across all sections with a lower score for SEO. I have adjusted the color slightly
+to improve an error it gave back regarding the white on green color contrast for the nav bar and footer. I re-ran the lighthouse after the change and have managed 90+ scores across all sections.
+
 ### Devices Tested
 
 * Samsung Galaxy S6 S7 S8 S9
