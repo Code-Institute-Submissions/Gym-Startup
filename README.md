@@ -211,7 +211,7 @@ of a user filing out a form while they are on the membership information page th
 page to do this.
 
 # Deployment
-My website is currently deployed on Github Pages - https://https://leemac79.github.io/Gym-Startup/
+My website is currently deployed on Github Pages - https://leemac79.github.io/Gym-Startup/
 
 I was able to deploy the website here by going to my repository in which all the files are saved, clicking on settings at the top and
 scrolling down to the heading GitHub Pages. Underneath the heading there is a source and I chose master branch from the dropdown which
