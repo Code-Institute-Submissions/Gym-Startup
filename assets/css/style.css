@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&display=swap');
+
+body {
+    font-family: 'Baloo 2', cursive , sans-serif;
+}
+
+/* ----------------------------------------Navbar */
+#nav-bar li {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#brand-logo {
+    padding-right: 15px;
+}
+
+
+.nav-link.active {
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline;
+}
+
 /* ----------------------------------------Header/hero banner */
 #welcome-banner {
     width: 100%;
@@ -29,7 +52,7 @@
 
 /* ----------------------------------------Background Color section */
 
-#Nav-bar {
+#nav-bar {
     background-color:  #309647;
 }
 
@@ -40,7 +63,8 @@
 /* ----------------------------------------Reasons section */
 
 .row-header h2 {
-    color: green;
+    color: #309647;
+    font-weight: bold;
 }
 
 .container-fluid-benefits {
@@ -74,11 +98,15 @@
 }
 
 .reasons {
-    color: green;
+    color: #309647;
 }
 
 .reasons p a {
     color: #fafafa;
+}
+
+.reasons h3 {
+    font-weight: bold;
 }
 
 
@@ -91,7 +119,7 @@
 /* ----------------------------------------Classes Hero section */
 
 .class-list li{
-    color: green;
+    color: #309647;
 }
 
 .class-list h2{
@@ -105,7 +133,7 @@
 }
 
 .daily {
-    background-color: #28a745;
+    background-color: #309647;
     text-align: left;
     color: #fafafa;
     padding: 30px 30px 30px 30px;
@@ -120,6 +148,14 @@
     justify-content: center;
 }
 
+#schedule h1 {
+    font-weight: bold;
+}
+
+#class_type_list h3{
+    font-weight: bold;
+}
+
 /* ----------------------------------------Facilties & Contact section */
 
 facilites-hero {
@@ -131,7 +167,7 @@ facilites-hero {
 }
 
 .equip {
-    background-color: #28a745;
+    background-color: #309647;
     text-align: left;
     color: #fafafa;
     padding: 30px 30px 30px 30px;
@@ -140,32 +176,38 @@ facilites-hero {
 }
 
 .facilties-list {
-    background-color: #28a745;
+    background-color: #309647;
 }
 
 #membership-details {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    line-height: 1.1em;
 }
 
 .membership-container {
-    color: green;
+    color: #309647;
 }
 
 .address p{
     margin-bottom: 3px;
 }
 
+#equip-list h1{
+    font-weight: bolder;
+}
+
+
 /* ----------------------------------------Contact Form */
 
 input{
   width: 100%;
   padding: 20px;
-  border: 2px solid green;
+  border: 2px solid #309647;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 16px;
@@ -193,8 +235,4 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: rgba(0, 128, 0, 0.336);
     padding: 20px;
-}
-
-.nav-link.active {
-    font-weight: bold;
 }

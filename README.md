@@ -10,6 +10,9 @@ The website I have created is based upon a fictitious independent family orienta
 The website focuses on a family friendly environment, helping families stay healthy together.
 As it is a family orientated gym I have envisioned each age group of a typical family to highlight what they may expect or would want from a gym of this nature.
 
+
+[Nu Gym Responsive Website](https://github.com/Leemac79/Gym-Startup/blob/master/assets/images/am-i-responsive-image.png)
+
 ### Business Goals
 
 * To create a new website to generate an online presence to increase gym memberships
@@ -61,7 +64,7 @@ As it is a family orientated gym I have envisioned each age group of a typical f
 # Design
 
 * Color Scheme - The two main colours for the site are green and white. This will be used across all pages
-* Typography - Not decided just yet
+* Typography - For a clean fresh feel I have used the Baloo 2 font from google fonts [From Here](https://fonts.google.com/specimen/Baloo+2?query=balo)
 * Imagery - Imagery is important. The large, background hero image is designed to be striking and catch the user's attention, while trying to enforce the family feel of the website.
 * responsivness - The site should be responsive on all common devices
 
