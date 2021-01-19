@@ -10,8 +10,11 @@ The website I have created is based upon a fictitious independent family orienta
 The website focuses on a family friendly environment, helping families stay healthy together.
 As it is a family orientated gym I have envisioned each age group of a typical family to highlight what they may expect or would want from a gym of this nature.
 
+[View the website in GitHub Pages.](https://leemac79.github.io/Gym-Startup/)
 
-[Nu Gym Responsive Website](https://github.com/Leemac79/Gym-Startup/blob/master/assets/images/am-i-responsive-image.png)
+![alt text](./assets/images/am-i-responsive-image.png "Responsive Image")
+
+Image produced from [Am I Responsive](http://ami.responsivedesign.is)
 
 ### Business Goals
 
