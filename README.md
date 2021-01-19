@@ -66,10 +66,12 @@ Image produced from [Am I Responsive](http://ami.responsivedesign.is)
 
 # Design
 
-* Color Scheme - The two main colours for the site are green and white. This will be used across all pages
 * Typography - For a clean fresh feel I have used the Baloo 2 font from google fonts [From Here](https://fonts.google.com/specimen/Baloo+2?query=balo)
 * Imagery - Imagery is important. The large, background hero image is designed to be striking and catch the user's attention, while trying to enforce the family feel of the website.
 * responsivness - The site should be responsive on all common devices
+* Color Scheme - The two main colours for the site are green and white. This will be used across all pages as shown below:
+
+![alt text](./assets/images/color-theme.png "Responsive Image")
 
 ## Layout
 
@@ -158,6 +160,9 @@ GitHub is used to store the projects code after being pushed from Git.
 
 * Balsamiq:
 Baslsamiq was used to create the wireframes during the design process.
+
+* Chrome Development Tools:
+Chrome DT were used to consistently test the site and run reports from Lighthouse.
 
 # Testing &  Validation
 
